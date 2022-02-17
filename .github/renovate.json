@@ -8,5 +8,11 @@
   "dependencyDashboardTitle": "Renovate Dashboard",
   "docker": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "automerge": true
+    }
+  ]
 }
